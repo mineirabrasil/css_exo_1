@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>i am heros</title>
+        <link re="shortcut icon" type="image/x-icon" href="./images/favico/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/favico/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./images/favico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="36x36" href="./images/favico/android-icon-36x36.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="./images/favico/android-icon-48x48.png">
+        <link rel="icon" type="image/png" sizes="72x72" href="./images/favico/android-icon-72x72.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./images/favico/android-icon-96x96.png">
+        <link rel="icon" type="image/png" sizes="144x144" href="./images/favico/android-icon-144x144.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./images/favico/android-icon-192x192.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="./images/favico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./images/favico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./images/favico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./images/favico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./images/favico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./images/favico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./images/favico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./images/favico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/favico/apple-icon-180x180.png">
+        <link rel="apple-touch-icon-precomposed" sizes="192x192" href="./images/favico/apple-icon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="192x192" href="./images/favico/apple-icon-precomposed.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Roboto', sans-serif;
+            }
+            header h1 {
+                font-weight: 900;
+                font-size: 18px;
+            }
+            header h2 {
+                font-weight: 500;
+                font-size: 16px;
+            }
+            article header {
+                border-bottom: 2px solid silver;
+            }
+            section p {
+                font-weight: 300; /* doit-on la mettre à chaque fois? font pas mentionné dans l'énnoncé de l'exo */
+                font-size: 15px;
+            }
+            section ul {
+                font-weight: 300; /* doit-on la mettre à chaque fois? font pas mentionné dans l'énnoncé de l'exo */
+                font-size: 12px;
+                border: solid green; /*info sur épaisseur bordeur ou couleur non mentionnées */
+                border-radius: 4px;
+                margin: 15px; /*espacement extérieur autour de la border?*/
+                /*padding: 15px; = espacement intérieur*/
+            }
+            section ul, address ul {
+                font-weight: 900;
+                font-size: 14px;
+                list-style-type: none; /*pas demandé*/
+           }
+           section ul li:nth-of-type(2n+1){
+               color: red;
+           }
+           section ul li:last-of-type {
+               color: blue;
+           }
+           section figure {
+                height: 35vh;
+                background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a0/Hulk_%282540708438%29.jpg");
+                background-size: cover; /*va couvrir toute la surface*/
+                /*background-size: contain;  = prend l'image et elle sera 100% visible*/
+                background-repeat: no-repeat;
+                background-position: center 30%;
+           }
+           section figure a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }          
+           aside h1 {
+               font-weight: 500;
+               font-size: 16px;
+            }
+           aside address p {
+            font-weight: 300; /* choix = ts les paragraphes en f-w :300 */
+            font-size: 14px;
+           }
+           address ul {
+              color: white;
+           }
+           address li {
+                display: inline-block;
+                vertical-align: middle;
+                background: red;
+                border-radius: 5px;
+                width: 50px;
+                height: 50px;
+                padding: 18px;
+           }
+           address li:nth-of-type(2n+1){
+               background: green;
+           }
+           address li a {
+               display: block;
+               font-size: 12px;
+               width: 100%;
+               height: 100%;
+           }
+           address a {
+                text-decoration: none;
+                color: inherit;
+           }
+           footer ul li {
+            font-family: initial;
+            font-size: 12px;
+            color: #525252;
+            list-style-type: none; /*pas demandé*/
+           }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+                i am heros <!--// 18px // 900 -->
+            </h1>
+            <h2>
+                do you love heroes ? <!--// 16px // 600 -->
+            </h2>
+        </header>
+        <main>
+            <article>
+                <header> <!--// bordure en bas de 2px solid sliver-->
+                    <h2>
+                        hulk <!--// 16px -->
+                    </h2>
+                </header>
+                <section> 
+                    <p>
+                        What's up bro !! HULK HaaAAaappY !! <!--// 15px-->
+                    </p>
+                    <ul> <!--// 12px // espacement 15px autour de la border qui est légerement arrondie de 4px--> 
+                        <li>power<b>++</b><!--// red // 900 // 14px--></li>
+                        <li>muscle<b>++</b></li>
+                        <li>intelligence<b>--</b><!--// blue--></li>
+                    </ul>
+                    <figure>
+                        <a href="https://fr.wikipedia.org/wiki/Hulk">
+                            <!--img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Hulk_%282540708438%29.jpg">// background sur figure // je veux que le lien sois toujours clicable-->
+                        </a>
+                    </figure>
+                </section>
+                <footer>
+                    <p>
+                        RrrrRRrr !!! <span>HULK Angry !!</span>
+                    </p>
+                </footer>
+            </article>
+            <aside>
+                <h1>
+                    Robert Bruce Banner <!--// 16px // 600-->
+                </h1>
+                <address>
+                    <p>
+                        44th street NY <!--// 14px // 200-->
+                    </p>
+                    <ul>
+                        <li><a href="https://wa.me/033666666666?text=hello">send ws</a></li> <!--50px 50px // 12px-->
+                        <li><a href="sms:033666666666?body=hello & stuff">send sms</a></li>
+                        <li><a href="tel:033666666666">tel me</a></li>
+                        <li><a href="mailto:hulk@gmail.com?subject=request another picture&body=do you have another picture like my attachment&attachment=https://upload.wikimedia.org/wikipedia/commons/a/a0/Hulk_%282540708438%29.jpg">ask more picture</a></li>
+                    </ul>
+                </address>
+            </aside>
+        </main>
+        <footer>
+            <ul>
+                <li>author</li>
+                <li>copyright©2021</li>
+                <li>legal information</li>
+            </ul><!--// aucun style // 12px // text color #525252-->
+        </footer>
+    </body>
+</html>
